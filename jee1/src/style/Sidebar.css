@@ -1,0 +1,45 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #f8f9fa;
+    /* padding: 20px; */
+  }
+  .sidebar .nav-link {
+    white-space: nowrap; /* Prevents the text from wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Adds '...' if the text overflows */
+  }
+  .sidebar h4 {
+    font-weight: bold;
+    /* text-align: center; */
+  }
+  .sidebar-heading {
+    font-size: 12px; /* Chhoti size */
+    font-weight: bold;
+    color: #949aa0; /* Grey color */
+    text-transform: uppercase;
+    margin-left: 10px; /* Left align */
+    margin-top: 10px;
+  }
+  
+  .nav-link {
+    display: inline-flex !important;
+    align-items: center;
+    color: #434952 !important;
+    padding:  10px;
+    font-size: 15px !important;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .nav-link:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .btn-api {
+    font-weight: bold;
+    font-size: 13px;
+    padding: 10px;
+    background: #3E60AA !important;
+    color: #e0e0e0 !important;
+  }
+  

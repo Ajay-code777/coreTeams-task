@@ -1,0 +1,18 @@
+@media (max-width: 576px) {
+    .table thead {
+      display: none; /* Hide table headers on small screens */
+    }
+    .table tbody tr {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      border-bottom: 1px solid #ddd;
+      padding: 10px;
+    }
+    .table td {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+    }
+  }
+  
